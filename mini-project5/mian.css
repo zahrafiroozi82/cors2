@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(161, 214, 196);
+}
+
+.big-box {
+  width: 1300px;
+  height: 600px;
+  background-color: white;
+  margin: auto;
+  margin-top: 30px;
+  border: none;
+  border-radius: 20px;
+}
+
+.small-box {
+  position: relative;
+  top: 100px;
+  right: 100px;
+}
+
+.ul1 {
+  position: relative;
+  right: 125px;
+}
+
+.ul1 {
+  direction: rtl;
+  display: flex;
+  flex-direction: row;
+}
+
+.li {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+
+.li:hover {
+  color: rgba(0, 0, 0, 0.485);
+}
+
+.search {
+  padding-left: 150px;
+  padding-top: 30px;
+}
+
+.in1 {
+  padding: 8px;
+  position: relative;
+  left: 180px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.in2 {
+  margin-left: 850px;
+  padding: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  transition-duration: 0.5s;
+  position: relative;
+  right: 115px;
+}
+
+.in2:hover {
+  background-color: rgba(0, 0, 0, 0.485);
+}
+
+img {
+  width: 250px;
+  height: 150px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 200px;
+  padding-right: 200px;
+}/*# sourceMappingURL=mian.css.map */

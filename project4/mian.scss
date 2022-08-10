@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(214, 214, 214);
+}
+.box1 {
+  background-color: rgb(89, 26, 131);
+  background-image: url(./img/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  width: 500px;
+  height: 325px;
+  border: none;
+  border-radius: 15px;
+}
+.box2 {
+  background-color: rgb(53, 53, 53);
+  width: 250px;
+  height: 325px;
+  border: none;
+  border-radius: 15px;
+  position: relative;
+  left: 200px;
+}
+.box3 {
+  background-color: white;
+  width: 250px;
+  height: 325px;
+  border: none;
+  border-radius: 15px;
+  position: relative;
+  bottom: 150px;
+}
+.box4 {
+  background-color: rgb(16, 9, 44);
+  width: 500px;
+  height: 325px;
+  border: none;
+  border-radius: 15px;
+  position: relative;
+  bottom: 150px;
+  right: 50px;
+}
+.box5 {
+  background-color: white;
+  width: 250px;
+  height: 675px;
+  border: none;
+  border-radius: 15px;
+  position: relative;
+  left: 150px;
+}
+.big-contaner {
+  display: grid;
+  grid-template-columns: 325px 325px 800px;
+  grid-template-rows: 500px 250px 250px;
+  margin-left: 140px;
+  margin-top: 50px;
+  height: 730px;
+}
+.img-bio {
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.bio {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.text {
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.h1 {
+  color: white;
+}
+.p1 {
+  color: gray;
+}
+.matm {
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+.pa1 {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.pa2 {
+  color: gray;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.pa11 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

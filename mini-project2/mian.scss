@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(34, 33, 33, 0.815);
+}
+.contaner {
+  width: 550px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.322);
+  margin: auto;
+  margin-top: 15%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.food {
+  height: 230px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  transition-duration: 0.5s;
+}
+.food:hover {
+  transform: scale(1.07, 1.07);
+  border-radius: 10px;
+  margin-left: 0px;
+}
+.text {
+  margin: auto;
+  padding: 30px;
+}
+.Get {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.Eat {
+  color: white;
+  font-size: small;
+}
+.email {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.322);
+  border: none;
+}
+.subcribe {
+  background-color: rgb(97, 134, 42);
+  color: rgb(36, 33, 33);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
+.subcribe:hover {
+  background-color: rgba(97, 134, 42, 0.5);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}

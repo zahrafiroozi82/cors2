@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.div-top {
+  background-image: url(./img/desktop/image-hero.jpg);
+  width: 100%;
+  height: 650px;
+}
+.div-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 60px;
+}
+.ul-header {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  font-weight: bold;
+}
+.a-li {
+  text-decoration: none;
+}
+.a-li:hover {
+  border-bottom: 2px solid white;
+}
+.li1 {
+  list-style-type: none;
+  color: white;
+  font-weight: bold;
+}
+.Loopstudios {
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: bolder;
+  color: white;
+  position: relative;
+  right: 50px;
+}
+.box1 {
+  border: 2px solid white;
+  width: 450px;
+  height: 270px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  position: relative;
+  top: 120px;
+  left: 150px;
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-size: 50px;
+}
+.page2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  width: 100%;
+  height: 700px;
+}
+.intera {
+  width: 700px;
+  height: 500px;
+  position: relative;
+  left: 100px;
+}
+.THE {
+  width: 490px;
+  height: 400px;
+  position: relative;
+  top: 220px;
+  right: 70px;
+  background-color: white;
+  padding: 60px;
+}
+.see {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.b-see {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  width: 160px;
+  border: 2px solid black;
+  color: black;
+}
+.b-see:hover {
+  background-color: black;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  width: 160px;
+  border: 2px solid black;
+}
+.galary {
+  width: 100%;
+}
+.img1 {
+  width: 250px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./img/desktop/image-deep-earth.jpg);
+  transition-duration: 0.5s;
+  color: white;
+  background-color: rgba(97, 97, 97, 0.719);
+  background-blend-mode: multiply;
+}
+.img1:hover {
+  background-color: rgba(63, 58, 58, 0.808);
+  background-blend-mode: multiply;
+  transform: scale(1.05, 1.05);
+  color: black;
+}
+.img2 {
+  width: 250px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./img/desktop/image-night-arcade.jpg);
+  transition-duration: 0.5s;
+  color: white;
+  background-color: rgba(97, 97, 97, 0.719);
+  background-blend-mode: multiply;
+}
+.img2:hover {
+  background-color: rgba(63, 58, 58, 0.808);
+  background-blend-mode: multiply;
+  transform: scale(1.05, 1.05);
+  color: black;
+}
+.img3 {
+  width: 250px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./img/desktop/image-soccer-team.jpg);
+  transition-duration: 0.5s;
+  color: white;
+  background-color: rgba(97, 97, 97, 0.719);
+  background-blend-mode: multiply;
+}
+.img3:hover {
+  background-color: rgba(63, 58, 58, 0.808);
+  background-blend-mode: multiply;
+  transform: scale(1.05, 1.05);
+  color: black;
+}
+.img4 {
+  width: 250px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./img/mobile/image-grid.jpg);
+  transition-duration: 0.5s;
+  color: white;
+  background-color: rgba(97, 97, 97, 0.719);
+  background-blend-mode: multiply;
+}
+.img4:hover {
+  background-color: rgba(63, 58, 58, 0.808);
+  background-blend-mode: multiply;
+  transform: scale(1.05, 1.05);
+  color: black;
+}
+.img5 {
+  width: 250px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./img/desktop/image-from-above.jpg);
+  transition-duration: 0.5s;
+  color: white;
+  background-color: rgba(97, 97, 97, 0.719);
+  background-blend-mode: multiply;
+}
+.img5:hover {
+  background-color: rgba(63, 58, 58, 0.808);
+  background-blend-mode: multiply;
+  transform: scale(1.05, 1.05);
+  color: black;
+}
+.img6 {
+  width: 250px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./img/desktop/image-pocket-borealis.jpg);
+  transition-duration: 0.5s;
+  color: white;
+  background-color: rgba(97, 97, 97, 0.719);
+  background-blend-mode: multiply;
+}
+.img6:hover {
+  background-color: rgba(63, 58, 58, 0.808);
+  background-blend-mode: multiply;
+  transform: scale(1.05, 1.05);
+  color: black;
+}
+.img7 {
+  width: 250px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./img/desktop/image-curiosity.jpg);
+  transition-duration: 0.5s;
+  color: white;
+  background-color: rgba(97, 97, 97, 0.719);
+  background-blend-mode: multiply;
+}
+.img7:hover {
+  background-color: rgba(63, 58, 58, 0.808);
+  background-blend-mode: multiply;
+  transform: scale(1.05, 1.05);
+  color: black;
+}
+.img8 {
+  width: 250px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./img/desktop/image-fisheye.jpg);
+  transition-duration: 0.5s;
+  color: white;
+  background-color: rgba(97, 97, 97, 0.719);
+  background-blend-mode: multiply;
+}
+.img8:hover {
+  background-color: rgba(63, 58, 58, 0.808);
+  background-blend-mode: multiply;
+  transform: scale(1.05, 1.05);
+  color: black;
+}
+.img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+.matn {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 360px;
+  left: 15px;
+}
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+.menu-footer {
+  position: relative;
+  top: 30px;
+  left: 100px;
+}
+.Loopstudios1 {
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: bolder;
+  color: white;
+  position: relative;
+}
+.All {
+  color: white;
+}
+.icon {
+  position: relative;
+  left: 50%;
+  top: 30px;
+}

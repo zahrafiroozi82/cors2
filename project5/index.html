@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>project-6</title>
+    <link rel="stylesheet" href="mian.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <img src="./img/logo-bookmark.svg" alt="" class="bookmark" />
+      <ul class="ul-header">
+        <a href="#pag2" class="a-header"><li class="li-header">FEATURES</li></a>
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        <a href="#pag3" class="a-header"><li class="li-header">DOWNLOAD</li></a>
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        <a href="#pag4" class="a-header"><li class="li-header">FAQ</li></a>
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        <a href="" class="a-header"><li class="li-header1">LOGIN</li></a>
+      </ul>
+    </header>
+    <div class="pag1" id="pag1">
+      <div class="text-pag1">
+        <h1 class="h-pag1">A Simple Bookmark Manager</h1>
+        <br />
+        <p class="p-pag1">
+          A clean and simple interface to organize your favourite websites. Open
+          a new browser tab and see your sites load instantly. Try it for free.
+        </p>
+        <br />
+        <br />
+        <a href="#pag2" class="a1-pag1"
+          ><button class="b1-pag1">Get it On Chrome</button></a
+        >
+        &nbsp;&nbsp;
+        <a href="#pag2" class="a2-pag1"
+          ><button class="b2-pag1">Get it On Firefox</button></a
+        >
+      </div>
+      <img src="./img/illustration-hero.svg" alt="" class="img-pag1" />
+    </div>
+    <div class="pag2" id="pag2">
+      <div class="header-page2">
+        <h1 class="h-page2">Features</h1>
+        <br />
+        <p class="p-page2">
+          Our aim is to make it quick and easy for you to access your favourite
+          websites. Your bookmarks sync between your devices so you can access
+          them on the go.
+        </p>
+      </div>
+      <br />
+      <br />
+      <ul class="ul-pag2">
+        <a href="" class="a-pag2"
+          ><li class="li-pag2">Simple Bookmarking</li></a
+        >
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        <a href="" class="a-pag2"><li class="li-pag2">Speedy Searching</li></a>
+        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        <a href="" class="a-pag2"><li class="li-pag2">Easy Sharing</li></a>
+      </ul>
+    </div>
+    <div class="pag3" id="pag3">
+      <div class="header-page2">
+        <h1 class="h-page2">Download the extension</h1>
+        <br />
+        <p class="p-page2">
+          We've got more browsers in the pipeline. Please do let us know if
+          you've got a favourite you'd like us to prioritize.
+        </p>
+      </div>
+      <div class="boxes">
+        <div class="box1">
+          <img src="./img/logo-chrome.svg" alt="" class="img-logo" />
+          <br />
+          <br />
+          <h2 class="h2-logo">Add to Chrome</h2>
+          <br />
+          <p class="p-logo">Minimum Version 62</p>
+          <br />
+          <img src="./img/bg-dots.svg" alt="" class="khat-logo" />
+          <br />
+          <br />
+          <br />
+          <a href="#header" class="a-logo"
+            ><button class="b-logo">Add & install Extension</button></a
+          >
+        </div>
+        <div class="box2">
+          <img src="./img/logo-firefox.svg" alt="" class="img-logo" />
+          <br />
+          <br />
+          <h2 class="h2-logo">Add to Firefox</h2>
+          <br />
+          <p class="p-logo">Minimum Version 55</p>
+          <br />
+          <img src="./img/bg-dots.svg" alt="" class="khat-logo" />
+          <br />
+          <br />
+          <br />
+          <a href="#header" class="a-logo"
+            ><button class="b-logo">Add & install Extension</button></a
+          >
+        </div>
+        <div class="box3">
+          <img src="./img/logo-opera.svg" alt="" class="img-logo" />
+          <br />
+          <br />
+          <h2 class="h2-logo">Add to Opera</h2>
+          <br />
+          <p class="p-logo">Minimum Version 46</p>
+          <br />
+          <img src="./img/bg-dots.svg" alt="" class="khat-logo" />
+          <br />
+          <br />
+          <br />
+          <a href="#header" class="a-logo"
+            ><button class="b-logo">Add & install Extension</button></a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="pag4" id="pag4">
+      <div class="header-pag4">
+        <h1 class="h-pag4">Frequently Asked Questions</h1>
+        <br />
+        <p class="p-pag4">
+          Here are some of our FAQs. If you have any other questions you'd like
+          answered please feel free to email us.
+        </p>
+      </div>
+      <br />
+      <br />
+      <form action="">
+        <select name="" id="" class="select">
+          <option value="" class="option1">What is Bookmark?</option>
+          <option value="" class="lorem">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo fugit
+            dolorum maxime harum velit maiores illo unde laudantium nulla.
+          </option>
+        </select>
+        <br />
+        <br />
+        <select name="" id="" class="select">
+          <option value="" class="option1">
+            How can I request a new browser?
+          </option>
+          <option value="">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo fugit
+            dolorum maxime harum velit maiores illo unde laudantium nulla.
+          </option>
+        </select>
+        <br />
+        <br />
+        <select name="" id="" class="select">
+          <option value="" class="option1">Is ther a mobile app?</option>
+          <option value="">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo fugit
+            dolorum maxime harum velit maiores illo unde laudantium nulla.
+          </option>
+        </select>
+        <br />
+        <br />
+        <select name="" id="" class="select">
+          <option value="" class="option1">
+            What about other Chromium browsers
+          </option>
+          <option value="">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo fugit
+            dolorum maxime harum velit maiores illo unde laudantium nulla.
+          </option>
+        </select>
+      </form>
+    </div>
+    <div class="footer1">
+      <h4 class="h4-footer1">35,000+ ALREADY JOINED</h4>
+      <br />
+      <h1 class="h1-footer1">Stay up-to-date with what we're doing</h1>
+      <br />
+      <br />
+      <form action="" class="form-footer1">
+        <input
+          type="email"
+          placeholder="Enter your email address"
+          class="email"
+        />
+        <a href=""
+          ><input type="submit" value="Contact US" class="contact"
+        /></a>
+      </form>
+    </div>
+    <footer class="footer2">
+      <img src="./img/logo-bookmark-footer.svg" alt="" class="bookmark" />
+      <ul class="ul-footer">
+        <a href="#pag2" class="a-footer"><li class="li-footer">FEATURES</li></a>
+        <a href="#pag3" class="a-footer"><li class="li-footer">DOWNLOAD</li></a>
+        <a href="#pag4" class="a-footer"><li class="li-footer">FAQ</li></a>
+      </ul>
+      <div class="icons">
+        <a href="#header" class="a-icon"
+          ><img src="./img/icon-facebook.svg" alt="" class="icon"
+        /></a>
+        <a href="#header" class="a-icon"
+          ><img src="./img/icon-twitter.svg" alt="" class="icon"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>

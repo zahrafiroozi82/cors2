@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(3, 3, 27, 0.87);
+}
+
+.contaner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 100px;
+}
+
+.div1 {
+  height: 430px;
+  width: 240px;
+  background-color: none;
+  border: 10px solid gray;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 25px;
+  color: white;
+}
+
+.div2 {
+  height: 430px;
+  width: 240px;
+  background-color: none;
+  border: 10px solid rgba(75, 44, 158, 0.95);
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 25px;
+  color: white;
+}
+
+.div3 {
+  height: 430px;
+  width: 240px;
+  background-color: none;
+  border: 10px solid gray;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 25px;
+  color: white;
+}
+
+.b1 {
+  padding: 10px;
+  background-color: rgba(3, 3, 27, 0.1);
+  color: white;
+  border: 2px solid rgba(75, 44, 158, 0.95);
+  border-radius: 10px;
+  width: 120px;
+  transition-duration: 1s;
+}
+
+.b1:hover {
+  padding: 10px;
+  background-color: lightskyblue;
+  color: white;
+  border: 2px solid lightskyblue;
+  border-radius: 10px;
+  width: 120px;
+}
+
+.b2 {
+  padding: 10px;
+  background-color: lightskyblue;
+  color: white;
+  border: 2px solid lightskyblue;
+  border-radius: 10px;
+  width: 120px;
+  transition-duration: 1s;
+}
+
+.b2:hover {
+  padding: 10px;
+  background-color: rgba(3, 3, 27, 0.1);
+  color: white;
+  border: 2px solid rgba(75, 44, 158, 0.95);
+  border-radius: 10px;
+  width: 120px;
+}/*# sourceMappingURL=mian.css.map */

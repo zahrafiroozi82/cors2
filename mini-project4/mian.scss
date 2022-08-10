@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(139, 139, 139, 0.26);
+}
+.contaner {
+  width: 650px;
+  height: 370px;
+  background-color: white;
+  margin: auto;
+  margin-top: 10%;
+  box-shadow: 8px -5px 30px 2px black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.head {
+  width: 200px;
+  height: 200px;
+  margin-top: 15px;
+  margin-left: 3px;
+}
+.text {
+  margin-top: 35px;
+  margin-left: 70px;
+  margin-right: 20px;
+}
+.Free {
+  background-color: black;
+  color: white;
+  display: inline;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+}
+.p1 {
+  position: relative;
+  bottom: 8px;
+}
+.h1 {
+  position: relative;
+  bottom: 12px;
+}
+.p2 {
+  color: gray;
+  font-size: small;
+}
+.Add {
+  color: white;
+  background-color: rgb(71, 71, 223);
+  width: 100%;
+  text-align: center;
+  height: 35px;
+  border: none;
+  position: relative;
+  top: 5px;
+  transition-duration: 1s;
+}
+.Add:hover {
+  background-color: rgba(71, 71, 223, 0.707);
+}
+.cart {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  transition-duration: 10ms;
+}
+.cart:hover {
+  transform: translateY(-4px);
+}
